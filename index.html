@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnippetSync</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>SnippetSync</h1>
+            <div style="display: flex; gap: 10px;">
+                <button id="exportBtn" class="fancy-btn secondary export-btn">Export</button>
+                <button class="theme-toggle" id="themeToggle">🌙</button>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <input type="text" id="titleInput" placeholder="Enter a title..." class="fancy-input" />
+        </div>
+
+        <div class="input-group">
+            <select id="categorySelect" class="fancy-select">
+                <option value="">Select Category</option>
+                <option value="code">Code</option>
+                <option value="note">Note</option>
+                <option value="todo">Todo</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+
+        <div class="input-group">
+            <div id="tagsInput" class="tags-input">
+                <input type="text" placeholder="Add tags (press Enter)" class="fancy-input" style="border: none; padding: 4px; min-width: 120px; flex: 1;" />
+            </div>
+        </div>
+
+        <textarea id="pasteArea" placeholder="Paste your code or notes here..." class="fancy-textarea"></textarea>
+
+        <div class="buttons">
+            <button id="saveButton" class="fancy-btn primary">Save</button>
+            <button id="clearButton" class="fancy-btn secondary">Clear</button>
+            <button id="copyButton" class="fancy-btn tertiary">Copy</button>
+        </div>
+
+        <div class="search-wrapper">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search notes..." class="fancy-input" />
+                <select id="filterCategory" class="fancy-select">
+                    <option value="">All Categories</option>
+                    <option value="code">Code</option>
+                    <option value="note">Note</option>
+                    <option value="todo">Todo</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="search-options">
+                <span class="search-option active" data-search="all">All</span>
+                <span class="search-option" data-search="title">Title</span>
+                <span class="search-option" data-search="content">Content</span>
+                <span class="search-option" data-search="tags">Tags</span>
+            </div>
+        </div>
+
+        <div id="savedNotes">
+            <h2>Saved Notes</h2>
+            <div id="notesList" class="notes-list"></div>
+        </div>
+    </div>
+
+    <!-- Modal from CODE1 -->
+    <div id="noteModal" class="modal">
+        <div class="modal-content">
+            <button class="close-btn">&times;</button>
+            <h2 id="modalTitle"></h2>
+            <div id="modalCategory" class="modal-category"></div>
+            <div id="modalTags" class="modal-tags"></div>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <!-- Modal from CODE2 -->
+    <div id="noteModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle"></h2>
+                <button class="close-btn">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="modalCategory" class="modal-category"></div>
+                <div id="modalTags" class="modal-tags"></div>
+                <div id="modalContent"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
