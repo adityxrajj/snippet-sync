@@ -1,20 +1,60 @@
 # SnippetSync
 
-**SnippetSync** is a web application designed to help developers and users organize code snippets, notes, and tasks efficiently. With SnippetSync, you can save and categorize snippets, quickly search and filter through saved entries, and access your organized notes anytime. This project is a great solution for anyone who needs a streamlined way to manage coding resources and quick reference materials.
+SnippetSync is a web-based application designed to help developers and tech enthusiasts organize their code snippets, notes, and tasks in a fast, intuitive, and efficient way. With SnippetSync, you can save, categorize, and quickly access your coding resources, whether it's a simple code snippet, project notes, or to-dos. It's the perfect solution for anyone looking to keep their development workflow organized and streamlined.
+
+---
 
 ## Features
 
-- **Save and Organize Notes**: Add, edit, and save code snippets, notes, or to-dos, and categorize them for easy retrieval.
-- **Title and Tags**: Add a title and tags for each entry, making it easier to organize and find specific snippets.
-- **Dark Mode Toggle**: Easily switch between light and dark themes for a comfortable viewing experience.
-- **Search and Filter**: Quickly search notes by title, content, or tags, and filter by category for fast access.
-- **Copy and Export Options**: Copy notes directly or export them for backup or external use.
-- **Clear All**: Clear notes or reset the workspace with a simple button.
+- **Organize Notes & Snippets**  
+  Add, edit, and store your code snippets, notes, or to-do lists in a categorized manner for easy retrieval later.
+  
+- **Tagging & Titles**  
+  Attach descriptive titles and tags to each entry, making it easy to search and filter through your notes.
+
+- **Dark & Light Theme Support**  
+  Toggle between light and dark modes to suit your visual preference and reduce eye strain.
+
+- **Advanced Search & Filtering**  
+  Quickly search and filter notes by title, content, or tags. Use categories to refine results and find exactly what you're looking for.
+
+- **Copy & Export Options**  
+  Easily copy code snippets to your clipboard or export notes to a file for backup or sharing.
+
+- **Reset Workspace**  
+  A simple button to clear your workspace, allowing you to start fresh whenever you need.
+
+---
+
+## Installation
+
+To run SnippetSync locally, follow these steps:
+
+### Clone the repository:
+```bash
+git clone https://github.com/adityxrajj/snippetsync.git
+```
 
 ## Usage
 
-1. **Add New Note**: Enter a title, select a category, and add relevant tags. Paste or type your code or note in the text area.
-2. **Save**: Click the "Save" button to store the note.
-3. **Search**: Use the search bar to look for saved notes by title, content, or tags, and filter by category for more refined results.
-4. **Export**: Use the "Export" button to export your notes, allowing you to store a backup or share snippets.
-5. **Theme Toggle**: Click the moon icon to toggle between light and dark themes.
+### Add a New Note
+1. Click on the "Add New Note" button.
+2. Provide a **title**, select a **category**, and enter relevant **tags**.
+3. Paste or type your code snippet or note in the text area.
+4. Click **Save** to store the entry.
+
+### Search & Filter
+- Use the **search bar** at the top to search for saved notes by title, content, or tags.
+- Filter results by **category** to narrow down the list of notes.
+
+### Export Notes
+- Click the Export button to export your notes into a file. This allows you to back up your data or share your snippets with others.
+
+### Theme Toggle
+- Click the moon icon (🌙) in the top corner to switch between light and dark themes based on your preference.
+
+## Contributing
+We welcome contributions! If you'd like to help improve SnippetSync, please fork the repository and submit a pull request with your changes. Be sure to follow the guidelines for coding standards, and include tests for any new features or bug fixes.
+
+## License
+This project is licensed under the MIT License - see the [MIT License](LICENSE) file for details.
