@@ -2,8 +2,6 @@
 
 SnippetSync is a web-based application designed to help developers and tech enthusiasts organize their code snippets, notes, and tasks in a fast, intuitive, and efficient way. With SnippetSync, you can save, categorize, and quickly access your coding resources, whether it's a simple code snippet, project notes, or to-dos. It's the perfect solution for anyone looking to keep their development workflow organized and streamlined.
 
----
-
 ## Features
 
 - **Organize Notes & Snippets**  
@@ -23,8 +21,6 @@ SnippetSync is a web-based application designed to help developers and tech enth
 
 - **Reset Workspace**  
   A simple button to clear your workspace, allowing you to start fresh whenever you need.
-
----
 
 ## Installation
 
