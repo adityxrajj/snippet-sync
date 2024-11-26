@@ -28,7 +28,7 @@ To run SnippetSync locally, follow these steps:
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/adityxrajj/snippetsync.git
+git clone https://github.com/adityxrajj/snippet-sync.git
 ```
 
 ## Usage
